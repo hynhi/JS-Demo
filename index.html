@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="ex1">
+            <h2>Tính lương</h2>
+            <form>
+                <div class="form-group">
+                    <label for="days">số ngày làm</label>
+                    <input type="number" class="form-control" id="days">
+
+                </div>
+                <div class="form-group">
+                    <label for="salary">lương 1 ngày</label>
+                    <input type="number" class="form-control" id="salary" value="100000">
+                </div>
+                <button type="button" id="btntotal" class="btn btn-info">Tổng lương</button>
+                <p id="txttotal"></p>
+            </form>
+        </div>
+        <div class="ex2">
+            <h2>Giá trị trung bình của 5 số</h2>
+            <form>
+                <div class="form-group">
+                    <label for="num1">số thứ 1</label>
+                    <input type="number" class="form-control" id="num1">
+
+                </div>
+                <div class="form-group">
+                    <label for="num2">số thứ 2</label>
+                    <input type="number" class="form-control" id="num2">
+                </div>
+                <div class="form-group">
+                    <label for="num3">số thứ 3</label>
+                    <input type="text" class="form-control" id="num3">
+
+                </div>
+                <div class="form-group">
+                    <label for="num4">số thứ 4</label>
+                    <input type="text" class="form-control" id="num4">
+
+                </div>
+                <div class="form-group">
+                    <label for="num5">số thứ 5</label>
+                    <input type="text" class="form-control" id="num5">
+
+                </div>
+                <button type="button" id="btnmedium" class="btn btn-info">Trung bình 5 số </button>
+                <p id="txtmedium"></p>
+            </form>
+        </div>
+        <div class="ex3">
+            <h2>Quy đổi USD=>VND</h2>
+            <form>
+                <div class="form-group">
+                    <label for="usd">Số USD</label>
+                    <input type="number" class="form-control" id="usd">
+
+                </div>
+                <div class="form-group">
+                    <label for="vnd">Giá USD</label>
+                    <input type="number" class="form-control" id="vnd" value="23500">
+                </div>
+                <button type="button" id="btnchange" class="btn btn-info">Quy đổi</button>
+                <p id="txtchange">Kết quả : 0</p>
+            </form>
+        </div>
+        <div class="ex4">
+            <h2>diện tích và chu vi hình chữ nhật</h2>
+            <form>
+                <div class="form-group">
+                    <label for="recLong">chiều dài</label>
+                    <input type="number" class="form-control" id="recLong">
+
+                </div>
+                <div class="form-group">
+                    <label for="recWidth">chiều rộng</label>
+                    <input type="number" class="form-control" id="recWidth">
+                </div>
+                <button type="button" id="btncalc" class="btn btn-info">Kết quả</button>
+                <p id="txtarea" class="textUper">Diện tích: 0</p>
+                <p id="txtper" class="textUper">Chu vi : 0</p>
+            </form>
+        </div>
+        <div class="ex5">
+            <h2>Tổng 2 ký số</h2>
+            <form>
+                <div class="form-group">
+                    <label for="n1">Nhập số có 2 chữ số</label>
+                    <input type="number" class="form-control" id="n1">
+
+                </div>
+                <button type="button" id="btnsum" class="btn btn-info">Tổng 2 kí số</button>
+                <p id="txtsum"></p>
+            </form>
+        </div>
+
+
+
+
+    </div>
+    <script src="./main.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
